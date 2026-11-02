@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-10-18T20:45:54.975765+00:00",
+  "statistic": "mean",
+  "ltvField": "loan_amount / property_value",
+  "note": "LTV is loan_amount / property_value * 100. Missing, Exempt, and non-positive property values are excluded. Each band includes its top value. Values above 80 and up to 80.25 stay in 60-80. Over 100 is above 100 through 400. Average total loan costs uses total_loan_costs; NA and Exempt are excluded. total_points_and_fees is too sparse on closed-end first liens.",
+  "files": [
+    {
+      "year": 2024,
+      "loans": 5007991,
+      "groups": 2597107,
+      "bytes": 24232026
+    },
+    {
+      "year": 2025,
+      "loans": 5510257,
+      "groups": 2952970,
+      "bytes": 27129319
+    }
+  ]
+}

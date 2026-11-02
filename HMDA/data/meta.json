@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-10-16T01:55:41Z",
+  "years": [
+    2024,
+    2025
+  ],
+  "defaultYear": 2025,
+  "universe": "action_taken = 1 (loan originated)",
+  "coverage": [
+    {
+      "year": 2024,
+      "units": 6191973,
+      "volume": 2039669865000.0,
+      "lenders": 4869,
+      "states": 54,
+      "groups": 1345059,
+      "bytes": 5734243
+    },
+    {
+      "year": 2025,
+      "units": 6822375,
+      "volume": 2405224215000.0,
+      "lenders": 4734,
+      "states": 54,
+      "groups": 1486771,
+      "bytes": 6320842
+    }
+  ],
+  "institutionTypeCounts": {
+    "bank": 2525,
+    "independent": 842,
+    "credit_union": 1577,
+    "builder": 15,
+    "bank_affiliated": 30
+  },
+  "sources": {
+    "loans": "https://ffiec.cfpb.gov/v2/data-browser-api/view/csv?states={ST}&years={YEAR}&actions_taken=1",
+    "transmittalSheet": "https://files.ffiec.cfpb.gov/static-data/",
+    "panel": "Latest available public reporter panel, 2018\u20132023, matched on LEI"
+  }
+}
